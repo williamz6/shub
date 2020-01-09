@@ -47,6 +47,7 @@ session_start();
 </head>
 
 <body>
+	<div class="container-fluid p-0 m-0">
 	<section class="img">
 	  <nav class="navbar navbar-expand-lg navbar-light bg-transparent"> <a class="navbar-brand" href="/"><img src="images/logo-1.png" class="img-fluid" width="50" alt="SOUTECH	"></a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
@@ -72,7 +73,7 @@ session_start();
 -->
 	    </div>
 	  </nav>
-		<?php
+		<!-- <?php
 		if(isset($_SESSION['message'])):
 ?>
 		<div class="alert alert-<?=$_SESSION['msg_type']?> alert-dismissible" role="alert" id="alertMsg"><span class="close" data-dismiss="alert" aria-label="Close" style="cursor: pointer;">&times;</span>
@@ -81,7 +82,7 @@ session_start();
 			 unset($_SESSION['message']);
 ?>
 			</div>
-<?php endif; ?>
+<?php endif; ?> -->
 		<div class="container">
 			<p class="lead smtext text-light mt-5">
 				We create a convenient working space best to you.
@@ -219,6 +220,7 @@ Owerri, Imo State</li>
 		</div>
 	</div>
 	</footer>
+</div>
 	
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/popper.min.js"></script>

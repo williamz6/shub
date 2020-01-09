@@ -11,6 +11,13 @@
 /*	background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)!important;*/
 
 }
+@media(max-width:981px){
+	.img{
+		background-size: cover!important;
+		height: 40vh;
+		background-image:linear-gradient(transparent, rgba(0,0,0,0.5)), url("../images/marvin-meyer-SYTO3xs06fU-unsplash.jpg");
+	}
+}
 .bg{
 	background-image:linear-gradient(transparent, rgba(0,0,0,0.5)), url("../images/new11.jpg");
 	
@@ -23,9 +30,6 @@
 }
 .nav-link{
 	color: white !important;
-}
-.img{
-position:relative;
 }
 
  .nav-link:hover{
